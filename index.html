@@ -1,23 +1,118 @@
 <!DOCTYPE html>
 <html lang="pt">
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Gabriela Peixoto de Souza</title>
   <link rel="stylesheet" href="css/style.css">
+  <link
+    href="https://fonts.googleapis.com/css2?family=Indie+Flower&family=Poppins:wght@700&family=Source+Code+Pro&display=swap"
+    rel="stylesheet">
+  <script src="https://kit.fontawesome.com/6d6952c5be.js" crossorigin="anonymous"></script>
 </head>
+
 <body>
   <header>
     <nav class="menu">
-      <ul>
-        <li><a href="#">Sobre</a></li>
-        <li><a href="#">Portfólio</a></li>
-        <li><a href="#">Contato</a></li>
+      <ul class="container">
+        <li><a href="#sobre">Sobre</a></li>
+        <li><a href="#portfolio">Portfólio</a></li>
+        <li><a href="#contato">Contato</a></li>
       </ul>
     </nav>
-    <h1 class="site-title">Gabriela Peixoto de Souza</h1>
-    <h2 class="site-subtitle">web developer</h2>
+    <div class="titulo">
+      <h1 class="site-title">Gabriela Peixoto</h1>
+      <h2 class="site-subtitle">web developer</h2>
+    </div>
   </header>
-  
+
+  <section class="sobre container" id="sobre">
+    <h2>Sobre</h2>
+    <figure class="avatar">
+      <img class="img-sobre" src="./img/gabriela-peixoto.jpg" alt="Gabriela Peixoto">
+    </figure>
+    <p>
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur nam iusto odio, distinctio non dignissimos
+      delectus atque eius modi quibusdam, in culpa. Nihil quaerat molestias rerum corrupti ducimus omnis dolorem?
+    </p>
+    <p>
+      Soluta id, expedita ducimus quos consequatur autem facere, repellat incidunt, ab at beatae optio nisi tempore ipsa
+      in fuga voluptatibus minus. Aut quisquam vel quaerat esse officiis dicta aliquid pariatur.
+    </p>
+    <p>
+      Similique debitis mollitia obcaecati maiores sequi rem temporibus, soluta minus nesciunt vel laudantium neque
+      labore adipisci ex sunt tempora expedita porro ratione ipsum quos fuga. Similique, aliquid quod. Vel, corporis?
+    </p>
+    <p>
+      Este site foi construído durante a <a href="https://www.alura.com.br/imersao-css/">Imersão CSS da Alura</a> 😻
+    </p>
+  </section>
+
+  <section class="portfolio container" id="portfolio">
+    <h2>Portfólio</h2>
+    <div class="grid">
+
+      <div class="flip-card">
+        <div class="card">
+          <figure>
+            <img class="img-portfolio" src="./img/ecommerce-creditos-s-o-c-i-a-l-c-u-t-unsplash.jpg" alt="eCommerce">
+          </figure>
+          <div class="card-back">
+            <h3>eCommerce</h3>
+          </div>
+        </div>
+      </div>
+
+      <div class="flip-card">
+        <div class="card">
+          <figure>
+            <img class="img-portfolio" src="./img/mobile-creditos-nate-grant-unsplash.jpg" alt=">Mobile">
+          </figure>
+          <div class="card-back">
+            <h3>Mobile</h3>
+          </div>
+        </div>
+      </div>
+      <div class="flip-card">
+        <div class="card">
+          <figure>
+            <img class="img-portfolio" src="./img/webdesign-creditos-domenico-loia-unsplash.jpg" alt="Web design">
+          </figure>
+          <div class="card-back">
+            <h3>Web design</h3>
+          </div>
+        </div>
+      </div>
+
+      <div class="flip-card">
+        <div class="card">
+          <figure>
+            <img class="img-portfolio" src="./img/projpessoais-creditos-hal-gatewood-unsplash.jpg"
+              alt="Projetos pessoais">
+          </figure>
+          <div class="card-back">
+            <h3>Projetos pessoais</h3>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="contato container" id="contato">
+    <h2>Contato</h2>
+    <div class="grid icons">
+      <a target="_blank" href="https://github.com/gabrielapeixoto">
+        <i class="fab fa-github"></i>
+      </a>
+      <a target="_blank" href="https://www.linkedin.com/in/gabrielapeixotodesouza/">
+        <i class="fab fa-linkedin"></i>
+      </a>
+      <a target="_blank" href="https://www.instagram.com/gabrielap.souza/">
+        <i class="fab fa-instagram"></i>
+      </a>
+    </div>
+  </section>
 </body>
+
 </html>
